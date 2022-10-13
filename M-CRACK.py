@@ -16,7 +16,7 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from n import mahadi
+        from RN import mahadi
  
         mahadi()
  
