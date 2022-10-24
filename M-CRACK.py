@@ -24,7 +24,7 @@ if bit == "64bit":
  
 elif bit == "32bit":
  
-        from bd2 import mahadi
+        from bl2 import mahadi
  
  
         mahadi()
