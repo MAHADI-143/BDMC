@@ -28,4 +28,5 @@ elif bit == "32bit":
  
  
         mahadi()
+
  
