@@ -16,7 +16,7 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from bl import mahadi
+        from piash import mahadi
  
         mahadi()
  
