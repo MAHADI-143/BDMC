@@ -1,13 +1,30 @@
-import os,platform
-
-riki=platform.architecture()[0]
-
-os.system('git pull')
-
-if riki=="64bit":
-    print('Your Phone is 64 bit')
-    __import__("piash").mahadi()
-
-elif riki=="32bit":
-    print('Your Phone is 32 bit')
-    __import__("MXD2").mahadi()
+import os, platform
+ 
+try:
+ 
+        import requests
+ 
+except:
+ 
+        os.system('pip2 install requests')
+ 
+ 
+ 
+import requests
+ 
+bit = platform.architecture()[0]
+ 
+if bit == "64bit":
+ 
+        from MXD import mahadi
+ 
+        mahadi()
+ 
+ 
+ 
+elif bit == "32bit":
+ 
+        from MXD2 import mahadi
+ 
+ 
+        mahadi()
