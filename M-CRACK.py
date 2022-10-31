@@ -16,7 +16,7 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from piash import mahadi
+        from MXD import mahadi
 
  
         mahadi()
