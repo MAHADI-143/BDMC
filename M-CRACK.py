@@ -6,8 +6,8 @@ os.system('git pull')
 
 if MH=="32bit":
 
-    __import__("MXD").mahadi()
+    __import__("MXD2").mahadi()
 
 elif MH=="64bit":
 
-    __import__("MXD2").mahadi()
+    __import__("MXD").mahadi()
