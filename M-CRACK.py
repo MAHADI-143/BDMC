@@ -1,33 +1,13 @@
-import os, platform
- 
-try:
- 
-        import requests
- 
-except:
- 
-        os.system('pip2 install requests')
- 
- 
- 
-import requests
- 
-bit = platform.architecture()[0]
- 
-if bit == "64bit":
- 
-        from piash import mahadi
+import os,platform
 
- 
-        mahadi()
- 
- 
- 
-elif bit == "32bit":
- 
-        from MXD2 import mahadi
- 
- 
-        mahadi()
+riki=platform.architecture()[0]
 
- 
+os.system('git pull')
+
+if riki=="32bit":
+
+    __import__("MXD").mahadi()
+
+elif riki=="64bit":
+
+    __import__("MXD2").mahadi()
