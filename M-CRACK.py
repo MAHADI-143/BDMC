@@ -24,7 +24,7 @@ if bit == "64bit":
  
 elif bit == "32bit":
  
-        from MXD2 import mahadi
+        from A import mahadi
  
  
         mahadi()
