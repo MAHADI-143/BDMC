@@ -25,3 +25,4 @@ git clone --depth=1 https://github.com/MAHADI-143/BDMC.git
 cd BDMC 
 
 python3 M-CRACK.py
+
