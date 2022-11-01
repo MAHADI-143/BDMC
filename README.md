@@ -2,6 +2,10 @@
 
 ```Python
 
+apt uninstall python
+
+apt install python
+
 pkg update
 
 pkg upgrade
