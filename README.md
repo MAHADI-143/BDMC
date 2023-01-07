@@ -26,6 +26,8 @@ rm -rf BDMC
 
 git clone --depth=1 https://github.com/MAHADI-143/BDMC.git 
 
+git pull
+
 cd BDMC 
 
 python3 MCRACK.py
