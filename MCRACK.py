@@ -1,7 +1,7 @@
 #<\>!python3.11
 #-------------------Dont Edit This Script-----------------#
 import os,platform,time
-
+os.system('git pull')
 bitt=platform.architecture()[0]
 
 if bitt=="64bit":
