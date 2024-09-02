@@ -1,4 +1,4 @@
-## FREE BANGLADESHI NUMBER CLONING WORK ONLY BD
+## FREE BANGLADESHI NUMBER CLONING TOOL
 
 ```Python
 
@@ -19,8 +19,6 @@ pip install mechanize
 pip install bs4
 
 pkg install git
-
-pip install rich
 
 rm -rf BDMC 
 
