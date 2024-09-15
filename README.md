@@ -18,4 +18,4 @@ git pull
 cd BDMC 
 python3 MCRACK.py
 ```
-#💵
+#
