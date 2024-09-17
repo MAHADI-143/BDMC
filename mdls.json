@@ -1,4 +1,4 @@
-{
+devices = {
     "Samsung": {
         "Galaxy S21": {"FBSV": "11", "FBDV": "SM-G991B", "density": "3.0", "resolution": (1080, 2400)},
         "Galaxy Note 20": {"FBSV": "10", "FBDV": "SM-N980F", "density": "3.0", "resolution": (1440, 3088)},
