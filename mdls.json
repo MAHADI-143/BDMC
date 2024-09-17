@@ -59,7 +59,7 @@
         "S12": {"FBSV": "10", "FBDV": "ITL-S12", "density": "2.6", "resolution": (720, 1600)},
         "A25": {"FBSV": "10", "FBDV": "ITL-A25", "density": "2.6", "resolution": (720, 1600)},
     },
-    'Hisense': {
+    "Hisense": {
         'Infinity H40': {'FBDV': 'HS-IH40', 'FBSV': '11', 'density': 2.8, 'resolution': (1080, 2400)},
         'Infinity H30': {'FBDV': 'HS-IH30', 'FBSV': '10', 'density': 2.5, 'resolution': (720, 1600)},
         'U6H': {'FBDV': 'HS-U6H', 'FBSV': '11', 'density': 3.0, 'resolution': (1440, 3200)},
